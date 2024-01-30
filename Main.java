@@ -94,9 +94,7 @@ public class Main {
             }
 
         } else {
-            if(pencilsOnTable == 1) {
-                pencilsTaken = 1;
-            } else if(pencilsOnTable % 4 == 0) {
+            if(pencilsOnTable % 4 == 0) {
                 pencilsTaken = 3;
             } else if(pencilsOnTable % 4 == 3) {
                 pencilsTaken = 2;
